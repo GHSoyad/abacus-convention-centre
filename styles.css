@@ -9,6 +9,34 @@ body {
     font-family: 'Rosarivo', serif !important;
 }
 
-.overlay {
-    background-color: rgba(0, 0, 0, 0.712) !important;
+section {
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+a.btn {
+    font-weight: bold;
+}
+
+#our-package ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+#our-package ul li::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    content: "\f00c";
+    padding: 4px;
+    color: var(--clr-primary);
+    background-color: rgba(255, 68, 0, 0.2);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#our-package .bg-primary ul li::before {
+    color: white;
+    background-color: rgba(0, 255, 255, 0.2);
 }
