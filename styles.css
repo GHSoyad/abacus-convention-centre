@@ -18,6 +18,31 @@ a.btn {
     font-weight: bold;
 }
 
+/* Carousel */
+.carousel-item {
+    height: 80vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: 40% 30%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 70px !important;
+    height: 6px !important;
+    margin: auto 10px !important;
+    background-color: var(--clr-primary) !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 50px !important;
+    height: 50px !important;
+    background-color: var(--clr-primary) !important;
+}
+
 #our-package ul li {
     list-style: none;
     margin: 10px 0;
@@ -39,4 +64,10 @@ a.btn {
 #our-package .bg-primary ul li::before {
     color: white;
     background-color: rgba(0, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-item {
+        height: 70vh;
+    }
 }
