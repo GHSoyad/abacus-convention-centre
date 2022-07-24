@@ -1,0 +1,10 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
+
+:root {
+    --clr-primary: orangered;
+}
+
+body {
+    font-family: 'Rosarivo', serif !important;
+}
