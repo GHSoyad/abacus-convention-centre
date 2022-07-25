@@ -33,14 +33,12 @@ a.btn {
     width: 70px !important;
     height: 6px !important;
     margin: auto 10px !important;
-    background-color: var(--clr-primary) !important;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     width: 50px !important;
     height: 50px !important;
-    background-color: var(--clr-primary) !important;
 }
 
 #our-package ul li {
