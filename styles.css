@@ -49,6 +49,7 @@ section {
 #our-package ul li {
     list-style: none;
     margin: 10px 0;
+    text-align: left;
 }
 
 #our-package ul li::before {
